@@ -1,15 +1,14 @@
 //
-//  FYTextField+Create.h
-//  FeiYing
+//  UIColor+hexColor.m
+//  Aihuanji
 //
-//  Created by FeiYing on 15/7/22.
-//  Copyright (c) 2015年 FeiYing. All rights reserved.
+//  Created by sugoqn on 2017/8/17.
+//  Copyright © 2017年 FeiYing. All rights reserved.
 //
 
-#import "GetColor16.h"
+#import "UIColor+hexColor.h"
 
-@implementation GetColor16
-
+@implementation UIColor (hexColor)
 +(UIColor *)hexStringToColor: (NSString *) stringToConvert
 {
     NSString *cString = [[stringToConvert stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
@@ -41,4 +40,3 @@
 }
 
 @end
-
